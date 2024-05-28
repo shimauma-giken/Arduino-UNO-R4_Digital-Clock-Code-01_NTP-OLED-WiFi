@@ -1,9 +1,3 @@
-## Arduino-UNO-R4_Digital Clock Code 01_NTP-OLED-WiFi
-## テスト: Arduino-UNO-R4_現在日時をOLEDに表示、NTP同期
-
-
-
-```c
 //　OLED 9.1inch / SSD1306 に現在日時を表示するサンプルプログラム
 //
 // 構成
@@ -278,4 +272,8 @@ void connectToWiFi(){
   Serial.println("Connected to WiFi");
   printWifiStatus();
 }
-```
+
+
+
+
+
